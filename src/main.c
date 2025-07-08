@@ -222,7 +222,7 @@ static void export_form_svg(SmuTreap t, Node n, Info info, double x, double y, v
 }
 
 static void export_dot_treap(SmuTreap smu_treap, char *base_output_dir, char *geo_name, char *qry_name) {
-    char dot_file_name[50], dot_full_path[50];
+    char dot_file_name[500], dot_full_path[500];
     
     combine_file_names(geo_name, qry_name, "dot", dot_file_name, sizeof(dot_file_name));
     
